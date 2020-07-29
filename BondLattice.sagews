@@ -1,4 +1,4 @@
-︠294e85d9-4f2b-4890-9bf3-601446611312︠
+
 #Resources: http://sheaves.github.io/Partitions-and-Posets/?fbclid=IwAR1qSC68BwATlr1oqOVyMB6gyensrXy65HZNl_IjWZ_IKwx8Hqpw17A5kpU
 
 #number of vertices in the graph
@@ -126,28 +126,6 @@ get_parking_functions(poset)
 
 #draw a Hasse diagram of the bond lattice
 poset.plot(element_labels = {x:p_label(x) for x in poset},vertex_size=1270,vertex_shape=None)
-
-
-
-︡dc46d058-f273-4005-b972-bf1ed64a148f︡{"done":true}
-︠f96a4eca-0b0a-4367-92c0-fcd59423fade︠
-
-︡94b5f62e-c168-4bfd-b2ae-989c4bcdd52b︡
-︠211fc5f4-e222-4b89-8886-589bf78f736d︠
-
-︡08b313ee-9713-4566-a0e2-948845513628︡
-︠bf030880-d5aa-40ad-b17d-f3753d2f28dc︠
-
-︡7d3f7c3e-56dd-4b5b-8c46-b0c95a05d901︡
-︠725ea8b9-2078-43e2-9385-1791283dc872︠
-
-︡5cd4088f-d94b-4e23-9190-534f743b5a17︡
-︠5cb6b9b0-6512-4a55-80a1-9dfa867e42b0︠
-
-︡cafabb14-bfd3-448b-9706-7a6f89909f5f︡{"done":true}
-
-
-
 
 
 
