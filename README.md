@@ -1,6 +1,7 @@
 # BondLattice
 
 OUTPUT AND INTPUT:
+
   In this sage program, we have functions that can:
     - Generate all the set partitions of the bond lattice of a graph
     - Generate all the parking functions from the bond lattice
