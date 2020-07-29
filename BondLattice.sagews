@@ -73,12 +73,6 @@ def is_connected(el_ls, encountered = None):
                 return is_connected(el_ls[:x]+el_ls[x+1:], encountered)
     return false
 
-# test for is_connected
-# element_ls = {1,2,4}
-# element_ls = list(element_ls)
-# print(is_connected(element_ls))
-
-
 #generate bond lattice
 def bond_lattice():
     Po = Partition_Poset(N) #generate all set partitions
@@ -114,21 +108,7 @@ def get_parking_functions(poset):
             label.append(get_label(merging_blocks[0], merging_blocks[1]))
         print("parking function is ", label)
     
-
-# get a list of set partitions of the bond lattice
-# for set_partition in Po_ls:
-#     if is_valid(set_partition):
-#         print(set_partition)
-#         new_Po_ls.append(set_partition)
-
-# get all the crossing elements
-# set_partition_test = SetPartition([[1], [2, 4, 5, 6], [3], [7]])
-# print(is_crossing(set_partition_test))
-
-
-
-
-
+    
 def get_label(block1, block2):
     min_el = max(min(block1), min(block2))
     max_block = block2 if min_el in block1 else block1
@@ -138,7 +118,7 @@ def get_label(block1, block2):
         if i < min_el:
             return i
 
-
+#get all the set partitions of the bond lattice
 poset = bond_lattice()
 
 #get all the parking functions of the bond lattice
